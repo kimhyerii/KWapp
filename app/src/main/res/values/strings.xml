@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KWapp</string>
+    <string name="title_activity_memo">MemoActivity</string>
+</resources>

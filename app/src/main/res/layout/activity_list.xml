@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kwapp.ListActivity"
+    tools:showIn="@layout/activity_list">
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="true"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/addfolderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:contentDescription="add"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/add_icon"
+        android:layout_weight="1"/>
+</LinearLayout>
